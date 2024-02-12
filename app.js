@@ -32,7 +32,7 @@ const promise = account.create(
 
 promise.then(
   function (response) {
-    console.log("new user: ", response); // Success
+    console.log("new user: "+ response); // Success
   },
   function (error) {
     console.log(error); // Failure
