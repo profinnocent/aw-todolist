@@ -25,8 +25,8 @@ const account = new Account(client);
 // Register a new user
 const promise = account.create(
   ID.unique(),
-  "greenboxafrica@gmail.com",
-  "greenback@0192"
+  "iounachukwu@gmail.com",
+  "iounachukwu@0192"
 );
 
 promise.then(
