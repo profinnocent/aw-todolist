@@ -9,7 +9,7 @@ const account = new Account(client);
 
 const promise = account.createEmailSession(
   "oiunachukwu@gmail.com",
-  "G458ae6U9G@k3nwpassword"
+  "G458ae6U9G@k3nw"
 );
 
 promise.then(
