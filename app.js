@@ -26,8 +26,7 @@ const account = new Account(client);
 const promise = account.create(
   ID.unique(),
   "greenboxafrica@gmail.com",
-  "greenback@0192",
-  "Greenbox Africa"
+  "greenback@0192"
 );
 
 promise.then(
