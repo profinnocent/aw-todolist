@@ -7,10 +7,9 @@ const client = new Client()
 
 const account = new Account(client);
 
-const promise = account.create(
-  ID,
-  "greenboxafrica@gmail.com",
-  "greenback@0192"
+const promise = account.createEmailSession(
+  "oiunachukwu@gmail.com",
+  "G458ae6U9G@k3nwpassword"
 );
 
 promise.then(
@@ -21,3 +20,18 @@ promise.then(
     console.log(error); // Failure
   }
 );
+
+// const promise = account.create(
+//   ID,
+//   "greenboxafrica@gmail.com",
+//   "greenback@0192"
+// );
+
+// promise.then(
+//   function (response) {
+//     console.log(response); // Success
+//   },
+//   function (error) {
+//     console.log(error); // Failure
+//   }
+// );
