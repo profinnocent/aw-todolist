@@ -8,29 +8,29 @@ const client = new Client()
 const account = new Account(client);
 
 // Login a user
-const promise = account.createEmailSession(
-  "oiunachukwu@gmail.com",
-  "G458ae6U9G@k3nw"
-);
+// const promise = account.createEmailSession(
+//   "oiunachukwu@gmail.com",
+//   "G458ae6U9G@k3nw"
+// );
 
-promise.then(
-  function (response) {
-    console.log(response); // Success
-  },
-  function (error) {
-    console.log(error); // Failure
-  }
-);
+// promise.then(
+//   function (response) {
+//     console.log(response); // Success
+//   },
+//   function (error) {
+//     console.log(error); // Failure
+//   }
+// );
 
 // Register a new user
-const promise1 = account.create(
+const promise = account.create(
   ID.unique(),
   "greenboxafrica@gmail.com",
   "greenback@0192",
   "Greenbox Africa"
 );
 
-promise1.then(
+promise.then(
   function (response) {
     console.log("new user: ", response); // Success
   },
