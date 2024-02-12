@@ -8,7 +8,7 @@ const client = new Client()
 const account = new Account(client);
 
 const promise = account.create(
-  "[USER_ID]",
+  ID,
   "greenboxafrica@gmail.com",
   "greenback@0192"
 );
